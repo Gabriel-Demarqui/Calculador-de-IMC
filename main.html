@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap" rel="stylesheet">    <title>IMC</title>
+</head>
+<body>
+   <section>
+       <div id="cont">
+            <div id="calculos">
+                <h1>CAULCULADORA DE IMC</h1>
+                <div class="edt">
+                    <p>Digite sua altura:
+                        <input type="number" name="cal" id="cal">
+                    </p>
+                    <p>Digite seu peso:
+                        <input type="number" name="peso" id="peso">
+                    </p>
+                    <div class="linha"></div>
+                    <div class="res"></div>            
+                    <input type="button" value="CALCULAR" onclick="calcular()">
+                </div>
+                <h1 class="txt"></h1>
+            </div>
+        </div>
+        <div id="img">
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
